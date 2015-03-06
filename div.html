@@ -1,0 +1,29 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+    <body>
+            <div id="contact">
+                Contact me!
+            </div>
+        
+        <a href="#" id="toggle">Contact</a>
+        
+        <script>
+        
+        $(function()
+        {
+            $("a#toggle").click(function()
+                         {
+                            $("#contact").slideToggle();
+                            return false;
+                         }); 
+        });
+        
+        </script>
+    
+    </body>
+    
+</html>
